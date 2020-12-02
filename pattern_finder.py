@@ -26,14 +26,7 @@ def find_pattern_in_binary_string(binary_string):
 	else:
 		print("Number {} has NOT any pattern!!!".format(binary_string))
 
-
-def number_separator(binary_string):
-	new_string = ""
-	for index in binary_string:
-		new_string += index + " "
-	return new_string
-
-
+		
 def system_forecast(binary_string):
 	regex = re.compile(r'(.+ .+)( \1)+')
 	try:
@@ -42,6 +35,13 @@ def system_forecast(binary_string):
 		print("Number {} has NOT any pattern!!!".format(binary_string))
 		exit()
 	return concatenation(match)
+
+
+def number_separator(binary_string):
+	new_string = ""
+	for index in binary_string:
+		new_string += index + " "
+	return new_string
 
 
 def concatenation(string):
