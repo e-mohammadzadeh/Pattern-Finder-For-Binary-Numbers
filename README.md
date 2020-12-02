@@ -13,6 +13,7 @@ Functions Descriptions:
 
 3. system_forecast
     Here I use regex (regular expression) search pattern to find patterns in a binary number. " group(1) "  is for repeating portion and " group(0) " is for the entire match. for more information you can use here: https://stackoverflow.com/questions/8672853/detecting-a-repeating-cycle-in-a-sequence-of-numbers-python
+    For use this functions you need to import "re" package to your file with this syntax "import re"
 
 4. number_separator
     Because the " regex. search " function needs separated input as arguments. so I separate binary numbers with a blank string " " (like this).
